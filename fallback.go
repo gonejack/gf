@@ -1,7 +1,5 @@
-# gf
-golang fallback
+package gf
 
-```golang
 func EmptyFallback(s, def string) string {
 	if s == "" {
 		return def
@@ -29,5 +27,3 @@ func Min(i, min int) int {
 	}
 	return i
 }
-
-```
